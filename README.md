@@ -2,7 +2,19 @@
 
 This is the containerised backend API needed for ecomio plugin to work.
 
-## Add dummy entries to Destinations using
+## Instructions
+
+* Clone the repo.
+
+* Make sure docker is installed on the machine
+
+* Run
+
+```
+docker-compose up
+```
+
+## Add a bunch of dummy entries to Destinations using. The average score determines the leaf color so try some variation ;D
 
 ```
 curl --location --request POST 'http://localhost:8080/api/destination?format=json' \
