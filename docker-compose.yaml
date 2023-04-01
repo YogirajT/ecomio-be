@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  backend:
+    build: .
+    container_name: ecomio-be
+    volumes:
+      - .:/ecomio-be
+    image: app:ecomio-be
+    ports:
+      - "8080:8080"
